@@ -24,7 +24,7 @@ var albums = []album{
 func main() {
 	router := gin.Default()
 	router.GET("/albums", getAlbums)
-	router.Run(":8080")
+	router.Run(":80")
 }
 
 // getAlbums responds with the list of all albums as JSON.
